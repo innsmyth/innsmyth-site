@@ -224,7 +224,7 @@ nav a:hover {
 }
 
 /* Cards */
-.about-card, .skill-card, .contact-card {
+.about-card, .link-card, .contact-card {
     background: var(--card-bg);
     border-radius: 12px;
     padding: 2rem;
@@ -232,7 +232,7 @@ nav a:hover {
     transition: transform 0.3s;
 }
 
-.about-card:hover, .skill-card:hover {
+.about-card:hover, .link-card:hover {
     transform: translateY(-5px);
 }
 
@@ -260,24 +260,24 @@ nav a:hover {
     font-weight: 600;
 }
 
-/* Skills */
-.skills-container {
+/* links */
+.links-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
 }
 
-.skill-card ul {
+.link-card ul {
     list-style: none;
 }
 
-.skill-card li {
+.link-card li {
     margin-bottom: 0.6rem;
     padding-left: 1.2rem;
     position: relative;
 }
 
-.skill-card li::before {
+.link-card li::before {
     content: "•";
     position: absolute;
     left: 0;
